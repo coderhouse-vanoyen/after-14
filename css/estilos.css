@@ -22,3 +22,14 @@
 .font-weight-extra-bold {
   font-weight: 800;
 }
+
+.seccionPrincipal .boxItems img {
+  height: auto;
+  object-fit: contain;
+}
+
+@media all and (min-width: 1200px) {
+  .seccionPrincipal .boxItems img {
+    height: 100px;
+  }
+}

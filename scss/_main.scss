@@ -4,3 +4,13 @@
 		font-weight: $v;
 	}
 }
+
+.seccionPrincipal{
+	.boxItems img{
+		height: auto;
+		object-fit: contain;
+		@media all and (min-width: $point-xl){
+			height: 100px;
+		}
+	}
+}
